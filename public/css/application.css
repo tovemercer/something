@@ -1,9 +1,10 @@
 /*already in file*/
 .container {
-  margin: 20px auto;
-  width: 600px;
+  margin: 250px auto;
+  width: 700px;
   padding: 0px 20px 20px 20px;
-  border: 1px dotted black;
+  text-align: center;
+  /*border: 1px dotted black;*/
 }
 
 th {
@@ -20,11 +21,11 @@ th {
   color: #444;
 }
 
-.bumblebess {
-  height: auto;
-  width: auto;
-  max-width: 50px;
-  max-height: 50px;
+
+.site-name {
+  text-align: left;
+  padding-left: 40px;
+  font-size: 30px;
 }
 
 .center {
@@ -36,19 +37,11 @@ header {
   top: 0;
   width: 100%;
   min-height: 150px;
-  /*border-bottom: 1px solid black;*/
+  border-bottom: 1px solid black;
   /*background-color: #9fb8b5;*/
 }
 
-footer {
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  text-align: center;
-  /*border-top: 1px solid black;*/
-}
-
-.header-footer {
+.layout-header {
   margin: 0px;
   padding: 0px;
   list-style: none;
@@ -88,4 +81,12 @@ nav ul li a {
   text-decoration: none;
   color: #333;
   display: inline-block;
+}
+
+.photos {
+  display: inline-block;
+}
+
+.registation-form-submit {
+  margin-top: 10px;
 }

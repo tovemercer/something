@@ -1,0 +1,10 @@
+<h3>Login</h3>
+
+<%= erb :'_errors' %>
+
+<form method="post" action="/sessions">
+  <input type="email" name="email" placeholder="email">
+  <input type="password" name="password" placeholder="password">
+
+  <input type="submit" value="login">
+</form>
