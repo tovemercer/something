@@ -1,5 +1,5 @@
 class User < ActiveRecord::Base
-  validates :frist_name, :last_name, :hashed_password, presence: true
+  validates :first_name, :last_name, :hashed_password, presence: true
   validates :email, presence: true, uniqueness: true
 
   has_many :trips

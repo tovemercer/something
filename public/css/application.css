@@ -32,6 +32,10 @@ th {
   text-align: center;
 }
 
+.login-link {
+  font-size: 12px;
+}
+
 header {
   position: fixed;
   top: 0;
@@ -71,22 +75,32 @@ nav ul li a {
   display: inline;
 }
 
+.user-form-submit {
+  outline: none;
+  border: none;
+  background: none;
+  padding: 0px;
+  width: auto;
+  text-decoration: none;
+  color: #333;
+  display: inline-block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
 #link-disguise {
   outline: none;
   border: none;
   background: none;
   padding: 0px;
-  margin: 0px;
   width: auto;
   text-decoration: none;
   color: #333;
   display: inline-block;
+  margin-top: 10px;
 }
 
 .photos {
   display: inline-block;
 }
 
-.registation-form-submit {
-  margin-top: 10px;
-}

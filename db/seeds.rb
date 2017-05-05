@@ -1,5 +1,5 @@
 User.create(
-  frist_name: "Tove",
+  first_name: "Tove",
   last_name: "Mercer",
   email: "tove@tove.com",
   password: "tove")
