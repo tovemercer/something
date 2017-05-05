@@ -1,0 +1,14 @@
+<% if logged_in? %>
+  <div id="photos">
+    <form method="get" action="/photos/<%=  %>">
+      <input type="location" name="tag" placeholder="enter a location">
+
+      <input id="link-disguise" type="submit" value="take me here!">
+    </form>
+
+    <!-- <p><a href="http://www.google.com/flights/">take me there!</a></p> -->
+  </div>
+<% else %>
+<div class="login-link"></div>
+  <p><a href="/sessions/new">login</a> to go places</p>
+<% end %>
